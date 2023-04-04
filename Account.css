@@ -1,0 +1,327 @@
+.topnav .logo{
+    width: 170px;
+}
+.topnav .psd, .psl{
+    border-right: 1.4px solid white;
+    padding-right: 10px;
+}
+.topnav .navs{
+    color: white;
+}
+.topnav .navs:hover{
+    color: rgb(30, 215, 96);
+}
+.topnav button i{
+    background-color: white;
+}
+.topnav button:hover i{
+    background-color: rgb(30, 215, 96);
+}
+.topnav button{
+    border: none;
+}
+.div a, .dri{
+    display: none;
+}
+.dri:focus-within .drive{
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.dri .drive{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 1;
+    background-color: transparent;
+    transition: all ease-in-out 0.5s;
+}
+.drive .riv{
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    padding: 80px 30px;
+}
+.drive .psl, .al{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.riv .logo{
+    margin-top: 350px;
+    width: 100px;
+}
+.pre{
+    display: flex;
+    background-color: rgb(255, 205, 210);
+}
+.pre button:hover{
+    transform: scale(1.05);
+}
+.col h1{
+    font-size: 40px;
+    font-weight: 700;
+    width: 90%;
+}
+.pre img{
+    width: 470px;
+    height: 270px;
+}
+.pre small{
+    font-size: 11px;
+}
+.body{
+    background-image: linear-gradient(to bottom, rgb(32, 43, 58), rgb(13, 21, 44));
+    padding-inline: 50px;
+}
+.im{
+    background-color: rgb(27, 27, 27);
+}
+.ser{
+    font-size: 60px;
+    color: rgb(22, 23, 25);
+    background-color: rgb(34, 35, 38);
+}
+.pro .bot{
+    border-top: 0.5px solid rgb(39, 39, 39);
+    border-bottom: 0.5px solid rgb(22, 22, 22);
+    border-right: none;
+    border-left: 6px solid transparent;
+    background-color: rgb(27, 27, 27);
+    color: rgb(193, 195, 198);
+}
+.pro .bot:hover{
+    border-left: 6px solid rgb(30, 215, 96);
+}
+.pro .bot:focus-within{
+    border-left: 6px solid rgb(30, 215, 96);
+}
+.ont{
+    font-weight: bold;
+}
+#acc .bat:hover{
+    transform: scale(1.05);
+}
+.pro .acc{
+    width: 75%;
+    top: 0;
+    right: 0;
+}
+.pro .class{
+    height: 581px;
+    overflow-y: scroll;
+}
+.pro .class::-webkit-scrollbar{
+    width: 0px;
+}
+.pro .ac{
+    display: none;
+}
+.pro:focus-within .ac,.acc{
+    display: block;
+}
+.over .p{
+    border-bottom: 1.4px solid rgb(222, 222, 222);
+}
+.over .s{
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+.over p{
+    color: rgb(179, 179, 179);
+}
+.over p .bl{
+    font-weight: 500;
+}
+#acc button:hover{
+    transform: scale(1.05);
+}
+.slit{
+    height: 350px;
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 14px;
+}
+.slitop{
+    background-color: rgb(179, 179, 179);
+    padding-block: 60px;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: 0px 0px 14px rgb(179, 179, 179);
+}
+.slited{
+    padding-block: 50px;
+    box-shadow: 0px 0px 14px rgb(179, 179, 179);
+    border-radius: 0px 0px 12px 12px;
+}
+.note{
+    border: 1px solid rgb(217, 218, 220);
+    background-color: rgb(248, 248, 248);
+}
+.edit{
+    font-weight: 700;
+}
+.ch{
+    accent-color: rgb(22, 155, 69);
+}
+.ca h6{
+    color: rgb(179, 179, 179);
+}
+.ca:hover h6{
+    color: black;
+}
+.sa{
+    background-color: rgb(31, 223, 100);
+    border: none;
+}
+.as{
+    background-color: rgb(30, 219, 98);
+}
+.cs:hover{
+    transform: scale(1.05);
+}
+.not{
+    float: right;
+}
+.nit{
+    padding-top: 100px;
+}
+.net h6{
+    margin-bottom: -3px;
+}
+.hov{
+    color: black;
+}
+.hov:hover{
+    color: rgb(30, 215, 96);
+}
+.tail{
+    box-shadow: 3px 3px 3px 3px rgb(198, 198, 198);
+}
+.bo{
+    margin-right: 10px;
+}
+.or{
+    margin-left: 10px;
+}
+.bor{
+    width: 100%;
+    border: 0.7px solid rgb(222, 222, 222);
+}
+.fa-folder{
+    background-color: rgb(30, 215, 96);
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.bott{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bott, .itf{
+    padding-block: 70px 40px;
+}
+.bott img{
+    width: 130px;
+    height: 40px;
+}
+.bott ul{
+    list-style-type: none;
+}
+.bott ul li h6{
+    color: white;
+    font-size: 13.5px;
+}
+.bott ul li a h6:hover{
+    color: rgb(30, 215, 96);
+}
+.itf i{
+    color: white;
+    background-color: rgb(34, 35, 38);
+    border-radius: 100%;
+}
+.itf a i:hover{
+    color: rgb(30, 215, 96);
+}
+.itf .fa-facebook-f{
+    padding: 15px 20px;
+}
+.small a{
+    color: rgb(34, 35, 38);
+}
+.small a:hover{
+    color: rgb(30, 215, 96);
+}
+@media (max-width: 1030px) {
+    .pre img{
+        width: 330px;
+        height: 200px;
+    }
+    .body{
+        padding-inline: 25px;
+    }
+}
+@media (max-width: 990px) {
+    .body{
+        padding-inline: 0px;
+    }
+    .topnav .logo{
+        width: 100px;
+    }
+    .topnav .psd, .dropdown{
+        display: none;
+    }
+    .topnav .div a, .dri{
+        display: block;
+    }
+    .bottom{
+        display: block;
+        padding-inline: 50px;
+    }
+}
+@media (max-width: 770px) {
+    .drive .psl, .al{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .riv a{
+        font-size: x-large;
+        margin-block: 10px;
+    }
+    .riv .logo{
+        margin-top: 200px;
+    }
+    .pre{
+        display: grid;
+    }
+    .pre img{
+        width: 100%;
+        height: 300px;
+    }
+    .pre .col button{
+        width: 100%;
+    }
+    .side .im{
+        display: none;
+    }
+    .pro .bot{
+        display: none;
+    }
+    .pro .acc{
+        width: 100%;
+        left: 0;
+    }
+    .batton{
+        position: absolute;
+        bottom: -330%;
+        right: 0;
+    }
+    .bott{
+        display: grid;
+        justify-content: start;
+    }
+    .bott ul li h6{
+        font-size: medium;
+    }
+}

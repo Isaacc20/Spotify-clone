@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.land{
+    background-image: linear-gradient(to bottom, rgb(45, 70, 185), rgb(75, 125, 126));
+}
+.topnav{
+    z-index: 1;
+}
+.topnav .spot{
+    color: white;
+}
+.tag{
+    color: white;
+}
+.top .toop{
+    position: absolute;
+    display: none;
+}
+.top:hover{
+    text-decoration: underline;
+}
+.top:hover .toop{
+    display: block;
+}
+.inv{
+    font-size: 80px;
+    font-weight: 700;
+}
+.slidetop{
+    display: none;
+}
+.qe{
+    border-block: 1px solid white;
+}
+.qe .view{
+    text-decoration: none;
+}
+.qe .view:hover{
+    text-decoration: underline;
+}
+.share{
+    border-right: 1px solid white;
+}
+.share .h6{
+    font-size: 50px;
+    font-weight: 600    ;
+}
+.share button{
+    border: 1px solid white;
+    color: white;
+}
+.share button:hover{
+    color: black;
+    background-color: white;
+}
+.news{
+    background-image: linear-gradient(to bottom, white, rgb(65, 0, 245));
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 1400px;
+}
+.news .new{
+    position: sticky;
+    top: 0;
+}
+.news .ne{
+    font-size: 110px;
+    font-weight: bold;
+}
+.va{
+    text-decoration: none;
+    font-size: small;
+    font-weight: 500;
+}
+.va:hover{
+    text-decoration: underline;
+}
+.fer{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 630;
+    color: rgb(65, 0, 245);
+}
+.for{
+    color: gray;
+}
+.for:hover{
+    color: rgb(65, 0, 246);
+}
+.record{
+    position: absolute;
+    right: 0;
+    top: 250px;
+}
+.thr{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.thr a{
+    color: black;
+}
+.thr a:hover{
+    color: rgb(65, 0, 245);
+}
+.load{
+    background-color: black;
+    color: white;
+}
+.load:hover{
+    background-color: white;
+    color: black;
+}
+.newes{
+    background-image: linear-gradient(to bottom, white, rgb(75, 145, 125));
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 1200px;
+}
+.record .press a{
+    text-decoration: none;
+}
+.record .press a:hover{
+    text-decoration: underline;
+}
+.abt .bid h1, .tran{
+    float: right;
+    width: 60%;
+}
+.bid h1{
+    font-weight: bold;
+}
+.feat .ftr{
+    height: 320px;
+}
+.newis{
+    height: 2400px;
+    background-image: linear-gradient(to bottom, white, rgb(45, 70, 185));
+}
+.eac{
+    background-color: rgb(45, 70, 185);
+    width: 100%;
+    display: flex;
+    align-items: last baseline;
+}
+.eac .email{
+    width: 50%;
+}
+.eac button{
+    background-color: white;
+    color: rgb(45, 70, 185);
+}
+.eac button:hover{
+    background-color: black;
+    color: white;
+}
+.eac .email{
+    border: 1px solid white;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.bott{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bott, .itf{
+    padding-block: 70px 40px;
+}
+.bott img{
+    width: 130px;
+    height: 40px;
+}
+.bott ul{
+    list-style-type: none;
+}
+.bott ul li .li{
+    font-size: 13.5px;
+}
+.bott ul li .h6{
+    color: white;
+}
+.bott ul li a h6:hover{
+    color: rgb(30, 215, 96);
+}
+.itfs{
+    height: fit-content;
+}
+.itfs button{
+    background-color: rgb(30, 215, 96);
+    transition: all ease-in-out 0.5s;
+}
+.itfs button:hover{
+    background-color: white;
+}
+.itf i{
+    color: white;
+    background-color: rgb(34, 35, 38);
+    border-radius: 100%;
+}
+.itf a i:hover{
+    color: rgb(30, 215, 96);
+}
+.itf .fa-facebook-f{
+    padding: 15px 20px;
+}
+.small a{
+    color: rgb(34, 35, 38);
+}
+.small a:hover{
+    color: rgb(30, 215, 96);
+}
+@media (max-width: 1030px) {
+    .mynav .top, #tag7{
+        display: none;
+    }
+    .slidetop{
+        display: block;
+    }
+}

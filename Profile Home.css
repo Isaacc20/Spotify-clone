@@ -1,0 +1,365 @@
+.bbody .side{
+    width: 17%;
+    position: fixed;
+    height: 100%;  
+    background-color: black;
+}
+.logo{
+    width: 100px;
+}
+.sidetag{
+    color: rgb(170, 170, 170);
+    font-size: 13px;
+    transition-duration: .3s;
+    font-weight: 700;
+}
+.sidetag:focus-within .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'opsz' 48
+}
+.sidetag:hover{
+    color: white;
+}
+.sidetag:focus-within{
+    color: white;
+}
+.sidetag .plus{
+    background-color: rgb(170, 170, 170);
+    border-radius: 3px;
+    transition: all ease-in-out .3s;
+}
+.sidetag:hover .plus{
+    background-color: white;
+}
+.sidetag:focus-within .fa-plus{
+    background-color: white;
+}
+.sidetag:hover .fa-heart{
+    background-image: linear-gradient(to bottom right, rgb(71, 37, 185), rgb(193, 202, 229));
+}
+.fa-heart{
+    background-image: linear-gradient(to bottom right, rgb(42, 10, 143), rgb(164, 182, 224));
+    border-radius: 2px;
+    transition: all ease-in-out 0.3s;
+}
+.sideta{
+    color: rgb(167, 167, 167);
+    font-size: small;
+    padding-inline: 3px;
+}
+.sideta .si:hover{
+    text-decoration: underline;
+}
+.side .sid{
+    color: rgb(170, 170, 170);
+    border-top: 1px solid white;
+    margin-top: -50px;
+    padding: 0px;
+}
+.side .sid:hover{
+    color: white;
+}
+.big{
+    background-color: rgb(18, 18, 18);
+    background-size: cover;
+    margin-left: 17%;
+}
+.topnav{
+    height: fit-content;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.topnav .chevron{
+    border-radius: 100%;
+}
+.topnav .psd{
+    border-right: 0.7px solid white;
+}
+
+.topnav .navs{
+    color: rgb(167, 167, 167);
+    font-weight: 600;
+    white-space: nowrap;
+    transition: all ease-in-out 0.1s;
+    height: fit-content;
+}
+.topnav .navs:hover{
+    color: white;
+    transform: scale(1.1);
+}
+.na{
+    font-weight: 600;
+    padding: 12px 30px;
+    white-space: nowrap;
+    transition: all ease-in-out 0.1s;
+}
+.set{
+    float: right;
+    display: none;
+}
+.set button{
+    margin-top: -20px;
+}
+.set:focus-within .slid{
+    right: 0;
+}
+.set .slid{
+    right: -100%;
+    background-color: rgb(18, 18, 18);
+    position: fixed;
+    top: 0;
+    transition: all ease-in-out 0.5s;
+}
+.set .slid .dir{
+    width: 24px;
+    height: 2px;
+    background-color: rgb(193, 202, 229);
+}
+.bar button{
+    background-color: black;
+    border: none;
+}
+.bar button:hover{
+    background-color: rgb(40, 40, 40);
+}
+.bar .log{
+    background-color: rgb(38, 38, 38);
+}
+.bar .log a:hover{
+    background-color: rgb(58, 58, 58);
+}
+.videos{
+    text-decoration: none;
+    width: 180px;
+    height: 290px;
+    border-radius: 7px;
+    background-color: rgb(28, 28, 28);
+    transition: all ease-in-out 0.3s;
+}
+.videos:hover{
+    background-color: rgb(40, 40, 40);
+}
+.videos img{
+    border-radius: 7px;
+}
+.videos button{
+    margin-top: -77px;
+    margin-left: 70%;
+    border-radius: 100%;
+    padding: 11px 14px;
+    box-shadow: 1px 1px 10px black;
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+}
+.videos:hover button{
+    opacity: 1;
+    transform: translateY(-13px);
+}
+.videos button:hover{
+    transform: scale(1.03) translateY(-10px);
+}
+.videos .art{
+    border-radius: 100%;
+}
+.videos span{
+    color: rgb(170, 170, 170);
+    font-size: 13px;
+    font-weight: 600;
+}
+.body ul li{
+    list-style-type: none;
+}
+.body ul .li{
+    margin-block: 10px;
+}
+.body ul .li:hover{
+    text-decoration: underline;
+}
+.body ul .li a{
+    color: rgb(140, 140, 140);
+}
+.body ul .li a:hover{
+    color: white;
+}
+.sos{
+    background-color: rgb(37, 37, 37);
+    padding-block: 9px;
+    padding-inline: 12px;
+}
+.sos:hover{
+    background-color: rgb(114, 114, 114);
+}
+.hr{
+    height: 100px;
+    width: 90%;
+    margin-inline: auto;
+    border-top: 1px solid rgb(114, 114, 114);
+    background-color: rgb(18, 18, 18);
+    color: rgb(114, 114, 114);
+    padding-block: 40px 100px;
+    margin-bottom: 100px;
+}
+.body p{
+    display: none;
+}
+.botnav{
+    background-image: linear-gradient(to bottom, rgba(18, 18, 18, 0.8), rgb(0, 0, 0), rgb(0, 0, 0));
+    position: fixed;
+    bottom: 0;
+    opacity: 0;
+}
+.botnav a{
+    color: rgb(179, 179, 179);
+}
+@media (max-width: 1030px) {
+    .logo{
+        width: 70px;
+    }
+    .videos{
+        width: 90%;
+        height: 90%;
+    }
+    .videos img{
+        height: 50%;
+    }
+    .vide5{
+        display: none;
+    }
+    .vood{
+        width: 180px;
+    }
+}
+@media (max-width: 1020px) {
+    .bar button b{
+        display: none;
+    }
+    .topnav .navs{
+        display: none;
+    }
+    .body p{
+        display: block;
+    }
+}
+@media (max-width: 955px) {
+    .vide4{
+        display: none;
+    }
+    .bat{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pat{
+        width: 40%;
+    }
+}
+@media (max-width: 930px) {
+    .sidetag{
+        white-space: nowrap;
+    }
+    .sideb{
+        padding-bottom: 100px;
+    }
+    .chev .right{
+        display: none;
+    }
+    .psd .navs{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+}
+@media (max-width: 850px) {
+    .logo{
+        width: 50px;
+    }
+    .bat{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 760px) {
+    .logo{
+        width: 50%;
+    }
+    .side, .sidea, .sideb{
+        display: none;
+    }
+    .bbody .side{
+        background-color: transparent;
+    }
+    .side .go .sidetag, .sid{
+        display: none;
+    }
+    .chev .chevron{
+        display: none;
+    }
+    .topnav .logo{
+        display: block;
+    }
+    .big{
+        margin-left: auto;
+    }
+    .sidec, .na{
+        display: none;
+    }
+}
+@media (max-width: 550px) {
+    .topnav{
+        display: none;
+        opacity: 0;
+    }
+    .topnav .navs{
+        display: none;
+    }
+    .set{
+        display: block;
+    }
+    .bar{
+        display: none;
+    }
+    .big{
+        background-image: linear-gradient(to bottom right, rgb(82, 88, 88), rgb(18, 18, 18), rgb(18, 18, 18), rgb(18, 18, 18), rgb(18, 18, 18), rgb(18, 18, 18));
+    }
+    .videos{
+        width: 180px;
+    }
+    .vide4{
+        display: block;
+    }
+    .vid{
+        overflow-x: scroll;
+    }
+    .vid::-webkit-scrollbar{
+        height: 0px;
+    }
+    .body .h6{
+        display: none;
+    }
+    .botnav{
+        opacity: 1;
+    }
+}
+@media (max-width: 500px) {
+    .videos button{
+        display: none;
+    }
+    .videos img{
+        border-radius: 0;
+        padding-bottom: 10px;
+    }
+    .videos{
+        background-color: transparent;
+        height: fit-content;
+        text-align: center;
+    }
+    .videos:hover{
+        background-color: transparent;
+    }
+    .videos span{
+        display: none;
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .logo{
+            width: 600px;
+        }
+        .div{
+            width: 600px;
+        }
+        .continue{
+            padding-block: 12px;
+            font-weight: 600;
+        }
+        .or{
+            border: 0.7px solid transparent;
+        }
+        .continue:hover{
+            border: 0.7px solid black;
+        }
+        .col{
+            border:0.7px solid rgb(129, 125, 125);
+        }
+        label{
+            white-space: nowrap;
+        }
+        input{
+            border: 1px solid rgb(129, 125, 125);
+            border-radius: 4px;
+            padding-block: 12px;
+        }
+        input:hover{
+            border: 1px solid black;
+        }
+        .forgot{
+            color: black;
+            white-space: nowrap;
+        }
+        .forgot:hover{
+            color: rgb(31, 223, 100);
+        }
+        .checkbox{
+            accent-color: rgb(31, 223, 100);
+            outline: 2px solid transparent;
+            border-radius: 10px;
+        }
+        .checkbox:focus-within{
+            outline: 2px solid black;
+        }
+        .log{
+            background-color: rgb(31, 223, 100);
+        }
+        .log:hover{
+            transform: scale(1.1);
+            background-color: rgb(31, 223, 100);
+        }
+        @media (max-width: 600px) {
+            .logo{
+                width: 100%;
+            }
+            .div{
+                width: 100%;
+            }
+            .continue{
+                width: 100%;
+            }
+            .continue i{
+                display: none;
+            }
+            .submit{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <div class="logo mx-auto">
+            <img class="w-25 my-3" src="Spotify Logo Black.png" alt="">
+        </div>
+        <hr>
+        <div class="div mx-auto">
+            <h3 class="fs-6 mt-5 text-black">To continue, log in to Spotify.</h3>
+            <button class="continue or btn btn-outline-none bg-primary rounded-5 text-white w-75 my-1"><i class="fa-brands fa-square-facebook"></i> &nbsp; CONTINUE WITH FACEBOOK</button>
+            <button class="continue or btn btn-outline-none bg-dark rounded-5 text-white w-75 my-1"><i class="fa-brands fa-apple"></i> &nbsp; CONTINUE WITH APPLE</button>
+            <button class="continue col bg-white rounded-5 text-secondary w-75 my-1"><i class="fa-brands fa-google text-danger"></i> &nbsp; CONTINUE WITH GOOGLE</button>
+            <button class="continue col bg-white rounded-5 text-secondary w-75 my-1">CONTINUE WITH PHONE NUMBER</button>
+            <div class="d-flex align-items-center w-75 mx-auto">
+                <hr class="w-50">
+                &nbsp; &nbsp; &nbsp; &nbsp;<b>OR</b>&nbsp; &nbsp; &nbsp; &nbsp;
+                <hr class="w-50">
+            </div>
+            <form class="d-grid w-75 mx-auto" id="form">
+                <label for="email" class="text-start text-black mt-2 w-25">Email address or username</label>
+                <input id="email" type="email" placeholder="Email address or username" required class="outline-light my-1">
+                <label for="password" class="text-start text-black mt-2 w-25">Password</label>
+                <input id="password" type="password" placeholder="Password" required class="outline-light my-1">
+                <a href="#" class="forgot text-start my-1 w-25">Forgot your password?</a>
+                <div class="d-flex justify-content-between my-2 submit">
+                    <div>
+                        <input type="checkbox" id="remember" class="checkbox">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a href="Profile Home.html" class="text-decoration-none text-dark py-2 px-4 rounded-5 log" role="button" type="submit">LOG IN</a>
+                </div>
+            </form>
+            <hr class="w-75 mx-auto">
+            <h6 class="my-4 text-black">Don't have an account?</h6>
+            <a href="#" class="text-secondary text-decoration-none rounded-5"><button class="continue col text-secondary w-75 my-4 py-2 bg-white rounded-5">SIGN UP FOR SPOTIFY</button></a>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js"></script>

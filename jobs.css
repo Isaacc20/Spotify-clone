@@ -1,0 +1,43 @@
+.land{
+    background-image: url(jobs.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.topnav .logo{
+    width: 120px;
+}
+.topnav a{
+    color: white;
+    transition: all ease-in-out 0.2s;
+}
+.topnav a:hover{
+    color: rgb(241, 173, 170);
+}
+.land .search{
+    background-color: rgb(255, 70, 50);
+    width: 85%;
+    margin-inline: auto;
+}
+.search input{
+    width: 85%;
+}
+.search button{
+    background-color: white;
+}
+.animation{
+    height: 400px;
+    width: 40%;
+    margin-right: 20%;
+    float: right;
+    overflow-y: scroll;
+}
+.who{
+    position: absolute;
+    bottom: -74%;
+    border-radius: 40px 40px 0px 0px;
+}
+.where{
+    position: absolute;
+    bottom: -170%;
+}

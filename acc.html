@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+    <style>
+        .pro button{
+            border-top: 0.5px solid rgb(39, 39, 39);
+            border-bottom: 0.5px solid rgb(22, 22, 22);
+            border-right: none;
+            border-left: 6px solid transparent;
+            background-color: rgb(27, 27, 27);
+            color: rgb(193, 195, 198);
+        }
+        .pro button:hover{
+            border-left: 6px solid rgb(30, 215, 96);
+        }
+        .pro button:focus-within{
+            border-left: 6px solid rgb(30, 215, 96);
+        }
+        .pro .acc{
+            top: 0;
+            right: 0;
+        }
+        .lorem{
+            font-size: 100px;
+            display: none;
+        }
+        .pro:focus-within .lorem{
+            display: block;
+        }
+        .over .p{
+    border-bottom: 1.4px solid rgb(222, 222, 222);
+}
+.over .s{
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+.over p{
+    color: rgb(179, 179, 179);
+}
+.over p .bl{
+    font-weight: 500;
+}
+#acc button:hover{
+    transform: scale(1.05);
+}
+.slit{
+    height: 350px;
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 14px;
+}
+.slitop{
+    background-color: rgb(179, 179, 179);
+    padding-block: 60px;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: 2px -2px 14px rgb(179, 179, 179);
+}
+.slited{
+    padding-block: 50px;
+    box-shadow: -2px 2px 14px rgb(179, 179, 179);
+    border-radius: 0px 0px 12px 12px;
+}
+.note{
+    border: 1px solid rgb(217, 218, 220);
+    background-color: rgb(248, 248, 248);
+}
+    </style>
+</head>
+<body>
+    <div>
+        <div class="side position-relative">
+            <div class="pro">
+                <button class="w-25 py-3 text-start"><i class="fa fa-home mx-3"></i>Account Overview</button>
+                <div class="acc position-absolute w-75 h-100">
+                    <div id="acc">
+                        <h1>Account Overview</h1>
+                        <h4>Profile</h4>
+                        <div class="over w-100">
+                            <p class="d-flex justify-contents-between pb-3 p"><span class="w-50">Username</span><span class="text-black w-50 bl">31zysrgt7uama7jmnl44qrj5jgue</span></p>
+                            <p class="d-flex justify-contents-between pb-3 s"><span class="w-50">Email</span><span class="text-black w-50 bl">isaacoluwadarasimi002@gmail.com</span></p>
+                            <p class="d-flex justify-contents-between pb-3 p"><span class="w-50">Date of birth</span><span class="text-black w-50 bl">June 22, 2004</span></p>
+                            <p class="d-flex justify-contents-between pb-3 s"><span class="w-50">Country or region</span><span class="text-black w-50 bl">Nigeria</span></p>
+                        </div>
+                        <button class="btn btn-outline-secondary text-black bg-transparent px-5 py-2 my-3 rounded-5"><h6>Edit Profile</h6></button><br>
+                        <h3 class="mt-5">Your plan</h3>
+                        <div class="slit my-4">
+                            <div class="slitop h-50 px-4">
+                                <h1>Spotify Free</h1>
+                            </div>
+                            <div class="slited px-4 h-50">
+                                <p>Play in shuffle, with ads.</p>
+                                <h1>Free</h1>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-secondary text-black bg-transparent px-5 py-2 my-3 rounded-5"><h6>Join Premium</h6></button>
+                        <h4 class="mt-5">Sign out everywhere</h4>
+                        <h6 class="my-4">This logs you out of Spotify everywhere you’re logged in, including the mobile, tablet, web player and desktop apps. This doesn't include partner devices (e.g. speakers, games consoles, and TVs), so for those <a href="#" class="text-dark">go to your apps page</a> and choose REMOVE ACCESS.</h6>
+                        <div class="note rounded-1 p-3">
+                            <h6>Note: It can take up to 1 hour for sign out to take effect on the web player.</h6>
+                        </div>
+                        <button class="btn btn-outline-secondary text-black bg-transparent px-5 py-2 mt-3 mb-5 rounded-5"><h6>Sign out everywhere</h6></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pro">
+                <button class="w-25 py-3 text-start"><span class="material-symbols-outlined mx-3">edit</span>Edit Profile</button>
+                <div class="acc position-absolute w-75 h-100">
+                    
+                </div>
+            </div>
+            <div class="pro">
+                <button class="w-25 py-3 text-start"><i class="fa-solid fa-lock mx-3"></i>Change Password</button>
+                <div class="acc position-absolute w-75 h-100">
+                    
+                </div>
+            </div>
+            <div class="pro">
+                <button class="w-25 py-3 text-start"><i class="fa-solid fa-bell mx-3"></i>Notification Settings</button>
+                <div class="acc position-absolute w-75 h-100">
+                    
+                </div>
+            </div>
+            <div class="pro">
+                <button class="w-25 py-3 text-start"><i class="fa-solid fa-lock mx-3"></i>Privacy Settings</button>
+                <div class="acc position-absolute w-75 h-100">
+                    
+                </div>
+            </div>
+            <div class="pro">
+                <button class="w-25 py-3 text-start"><i class="fa fa-rotate-right mx-3"></i>Recover Playlist</button>
+                <div class="acc position-absolute w-75 h-100">
+                    
+                </div>
+            </div>
+            <div class="pro">
+                <button class="w-25 py-3 text-start"><i class="fa-regular fa-clock mx-3"></i>Reciepts</button>
+                <div class="acc position-absolute w-75 h-100">
+                    
+                </div>
+            </div>
+            <div class="pro">
+                <button class="w-25 py-3 text-start"><i class="fa-solid fa-puzzle-piece mx-3"></i>Apps</button>
+                <div class="acc position-absolute w-75 h-100">
+                    
+                </div>
+            </div>
+            <div class="pro">
+                <button class="w-25 py-3 text-start"><i class="fa-regular fa-calendar mx-3"></i>Redeem</button>
+                <div class="acc position-absolute w-75 h-100">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src=".///bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js"></script>
